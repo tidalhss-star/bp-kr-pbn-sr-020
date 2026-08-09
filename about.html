@@ -1,196 +1,194 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <title>압구정 노래방 가이드 - 진짜 찾기 힘든 분위기 좋은 곳</title>
-    <meta name="description" content="압구정에서 진짜 분위기 좋은 노래방 찾기 힘들지? 내가 직접 가본 압구정 노래방 5곳을 솔직하게 리뷰해줄게. 가격, 시설, 분위기까지 다 알려줌!">
-    <meta name="keywords" content="압구정 노래방, 압구정 노래방 추천, 압구정 가성비 노래방, 압구정 코인노래방, 압구정 데이트 노래방, 압구정 역 노래방">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://apgujeong-song-info.mapo-room-guide.xyz/about.html">
-    <meta property="og:title" content="압구정 노래방 가이드 - 진짜 찾기 힘든 분위기 좋은 곳">
-    <meta property="og:description" content="압구정에서 진짜 분위기 좋은 노래방 찾기 힘들지? 내가 직접 가본 압구정 노래방 5곳을 솔직하게 리뷰해줄게. 가격, 시설, 분위기까지 다 알려줌!">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://apgujeong-song-info.mapo-room-guide.xyz/about.html">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:site_name" content="압구정 노래방 가이드">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="압구정 노래방 가이드 - 분위기 좋은 노래방 추천">
-    <meta name="twitter:description" content="압구정 노래방, 어디가 좋을까? 내가 직접 가본 5곳의 실제 후기. 가격, 시설, 분위기까지 솔직히 알려줄게.">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #faf6f1; color: #2c2c2c; line-height: 1.7; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        header { background: #fff; box-shadow: 0 2px 20px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
-        .header-inner { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; max-width: 1200px; margin: 0 auto; }
-        .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.5px; }
-        .logo span { color: #e07a5f; }
-        nav ul { display: flex; list-style: none; gap: 30px; }
-        nav a { text-decoration: none; color: #2c2c2c; font-weight: 500; font-size: 0.95rem; transition: color 0.3s; }
-        nav a:hover { color: #e07a5f; }
-        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
-        .hamburger span { width: 25px; height: 2px; background: #2c2c2c; transition: 0.3s; }
-        .hero { padding: 80px 0 60px; text-align: center; }
-        .hero-grid { max-width: 800px; margin: 0 auto; }
-        .hero h1 { font-size: 2.8rem; font-weight: 700; line-height: 1.2; margin-bottom: 20px; color: #1a1a1a; }
-        .hero h1 span { color: #e07a5f; }
-        .hero p { font-size: 1.15rem; color: #666; margin-bottom: 30px; }
-        @media (max-width: 768px) {
-            nav ul { display: none; flex-direction: column; position: absolute; top: 60px; left: 0; width: 100%; background: #fff; padding: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
-            nav ul.active { display: flex; }
-            .hamburger { display: flex; }
-            .hero h1 { font-size: 2rem; }
-        }
-        .tel-link { display: inline-block; background: #e07a5f; color: #fff; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
-        .tel-link:hover { background: #d06a4f; }
-        .section { padding: 60px 0; }
-        .section h2 { font-size: 2rem; margin-bottom: 40px; text-align: center; }
-        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .card { background: #fff; border-radius: 16px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s; }
-        .card:hover { transform: translateY(-5px); }
-        .card h3 { font-size: 1.3rem; margin-bottom: 15px; color: #1a1a1a; }
-        .card h3 span { color: #e07a5f; }
-        .card p { color: #555; margin-bottom: 10px; }
-        .card .price { font-weight: 700; color: #e07a5f; font-size: 1.1rem; }
-        .faq { background: #fff; border-radius: 16px; padding: 40px; margin-top: 40px; }
-        .faq-item { border-bottom: 1px solid #eee; padding: 20px 0; }
-        .faq-item:last-child { border-bottom: none; }
-        .faq-item h4 { font-size: 1.1rem; margin-bottom: 10px; cursor: pointer; }
-        .faq-item p { color: #666; }
-        footer { background: #1a1a1a; color: #aaa; text-align: center; padding: 40px 20px; margin-top: 60px; }
-        footer a { color: #e07a5f; text-decoration: none; }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>압구정 노래방 가이드 - 진짜 찾기 힘든 분위기 좋은 곳</title>
+ <meta name="description" content="압구정에서 진짜 분위기 좋은 노래방 찾기 힘들지? 내가 직접 가본 압구정 노래방 5곳을 솔직하게 리뷰해줄게. 가격, 시설, 분위기까지 다 알려줌!">
+ <meta name="keywords" content="압구정 노래방, 압구정 노래방 추천, 압구정 가성비 노래방, 압구정 코인노래방, 압구정 데이트 노래방, 압구정 역 노래방">
+ <meta name="robots" content="index, follow">
+ <link rel="canonical" href="https://apgujeong-song-info.mapo-room-guide.xyz/about.html">
+ <meta property="og:title" content="압구정 노래방 가이드 - 진짜 찾기 힘든 분위기 좋은 곳">
+ <meta property="og:description" content="압구정에서 진짜 분위기 좋은 노래방 찾기 힘들지? 내가 직접 가본 압구정 노래방 5곳을 솔직하게 리뷰해줄게. 가격, 시설, 분위기까지 다 알려줌!">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://apgujeong-song-info.mapo-room-guide.xyz/about.html">
+ <meta property="og:locale" content="ko_KR">
+ <meta property="og:site_name" content="압구정 노래방 가이드">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="압구정 노래방 가이드 - 분위기 좋은 노래방 추천">
+ <meta name="twitter:description" content="압구정 노래방, 어디가 좋을까? 내가 직접 가본 5곳의 실제 후기. 가격, 시설, 분위기까지 솔직히 알려줄게.">
+ <style>
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ html { scroll-behavior: smooth; }
+ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #faf6f1; color: #2c2c2c; line-height: 1.7; }
+ .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+ header { background: #fff; box-shadow: 0 2px 20px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+ .header-inner { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; max-width: 1200px; margin: 0 auto; }
+ .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.5px; }
+ .logo span { color: #e07a5f; }
+ nav ul { display: flex; list-style: none; gap: 30px; }
+ nav a { text-decoration: none; color: #2c2c2c; font-weight: 500; font-size: 0.95rem; transition: color 0.3s; }
+ nav a:hover { color: #e07a5f; }
+ .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
+ .hamburger span { width: 25px; height: 2px; background: #2c2c2c; transition: 0.3s; }
+ .hero { padding: 80px 0 60px; text-align: center; }
+ .hero-grid { max-width: 800px; margin: 0 auto; }
+ .hero h1 { font-size: 2.8rem; font-weight: 700; line-height: 1.2; margin-bottom: 20px; color: #1a1a1a; }
+ .hero h1 span { color: #e07a5f; }
+ .hero p { font-size: 1.15rem; color: #666; margin-bottom: 30px; }
+ @media (max-width: 768px) {
+ nav ul { display: none; flex-direction: column; position: absolute; top: 60px; left: 0; width: 100%; background: #fff; padding: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+ nav ul.active { display: flex; }
+ .hamburger { display: flex; }
+ .hero h1 { font-size: 2rem; }
+ }
+ .tel-link { display: inline-block; background: #e07a5f; color: #fff; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
+ .tel-link:hover { background: #d06a4f; }
+ .section { padding: 60px 0; }
+ .section h2 { font-size: 2rem; margin-bottom: 40px; text-align: center; }
+ .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+ .card { background: #fff; border-radius: 16px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s; }
+ .card:hover { transform: translateY(-5px); }
+ .card h3 { font-size: 1.3rem; margin-bottom: 15px; color: #1a1a1a; }
+ .card h3 span { color: #e07a5f; }
+ .card p { color: #555; margin-bottom: 10px; }
+ .card .price { font-weight: 700; color: #e07a5f; font-size: 1.1rem; }
+ .faq { background: #fff; border-radius: 16px; padding: 40px; margin-top: 40px; }
+ .faq-item { border-bottom: 1px solid #eee; padding: 20px 0; }
+ .faq-item:last-child { border-bottom: none; }
+ .faq-item h4 { font-size: 1.1rem; margin-bottom: 10px; cursor: pointer; }
+ .faq-item p { color: #666; }
+ footer { background: #1a1a1a; color: #aaa; text-align: center; padding: 40px 20px; margin-top: 60px; }
+ footer a { color: #e07a5f; text-decoration: none; }
+ </style>
 </head>
 <body>
-    <header>
-        <div class="header-inner">
-            <div class="logo"><span>압</span>구정 노래방</div>
-            <nav>
-                <ul>
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/about">소개</a></li>
-                    <li><a href="/places">장소</a></li>
-                    <li><a href="/info">정보</a></li>
-                    <li><a href="/contact">문의</a></li>
-                </ul>
-                <div class="hamburger" onclick="document.querySelector('nav ul').classList.toggle('active')">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="header-inner">
+ <div class="logo"><span>압</span>구정 노래방</div>
+ <nav>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/about">소개</a></li>
+ <li><a href="/places">장소</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/contact">문의</a></li>
+ </ul>
+ <div class="hamburger" onclick="document.querySelector('nav ul').classList.toggle('active')">
+ <span></span>
+ <span></span>
+ <span></span>
+ </div>
+ </nav>
+ </div>
+ </header>
 
-    <section class="hero">
-        <div class="hero-grid">
-            <h1>압구정 노래방 <span>완벽 가이드</span></h1>
-            <p>형, 압구정에서 노래방 찾고 있어? 내가 진짜 가본 곳만 골라서 다 알려줄게. 가격, 시설, 분위기까지 싹 다!</p>
-            <a href="tel:0200000000" class="tel-link">전화 문의</a>
-        </div>
-    </section>
+ <section class="hero">
+ <div class="hero-grid">
+ <h1>압구정 노래방 <span>완벽 가이드</span></h1>
+ <p>형, 압구정에서 노래방 찾고 있어? 내가 진짜 가본 곳만 골라서 다 알려줄게. 가격, 시설, 분위기까지 싹 다!</p>
+ <a href="tel:0200000000" class="tel-link">전화 문의</a>
+ </div>
+ </section>
 
-    <section class="section">
-        <div class="container">
-            <h2>압구정 노래방 TOP 5</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3><span>1.</span> 수페리어 노래방</h3>
-                    <p>압구정 로데오 근처, 인테리어가 진짜 고급스러워. 데이트하기 딱 좋아.</p>
-                    <p class="price">1시간 30,000원~</p>
-                    <p>시설: 최신 음향, 무대 조명, 깨끗한 화장실</p>
-                </div>
-                <div class="card">
-                    <h3><span>2.</span> 코인노래방 1989</h3>
-                    <p>가성비 끝판왕! 500원에 한 곡, 친구들이랑 부담 없이 놀기 좋아.</p>
-                    <p class="price">500원/곡</p>
-                    <p>시설: 깔끔한 부스, 다양한 최신곡</p>
-                </div>
-                <div class="card">
-                    <h3><span>3.</span> 더 스테이지</h3>
-                    <p>압구정역에서 도보 3분. 룸이 넓고 방음도 완벽해. 단체 모임 강추!</p>
-                    <p class="price">1시간 40,000원~</p>
-                    <p>시설: 대형 스크린, 돌비 사운드</p>
-                </div>
-                <div class="card">
-                    <h3><span>4.</span> 보컬룸</h3>
-                    <p>전문 보컬 트레이닝 시스템이 있어. 노래 실력 키우고 싶은 사람한테 딱이야.</p>
-                    <p class="price">1시간 25,000원~</p>
-                    <p>시설: 마이크 2개, 녹음 기능</p>
-                </div>
-                <div class="card">
-                    <h3><span>5.</span> 럭셔리 노래연습장</h3>
-                    <p>야간 할인 있어서 늦게 가면 더 싸. 친구랑 밤새 놀기 좋은 곳.</p>
-                    <p class="price">야간 3시간 50,000원</p>
-                    <p>시설: 무료 음료, 간단한 안주</p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section class="section">
+ <div class="container">
+ <h2>압구정 노래방 TOP 5</h2>
+ <div class="card-grid">
+ <div class="card">
+ <h3><span>1.</span> 수페리어 노래방</h3>
+ <p>압구정 로데오 근처, 인테리어가 진짜 고급스러워. 데이트하기 딱 좋아.</p>
+ <p class="price">1시간 30,000원~</p>
+ <p>시설: 최신 음향, 무대 조명, 깨끗한 화장실</p>
+ </div>
+ <div class="card">
+ <h3><span>2.</span> 코인노래방 1989</h3>
+ <p>가성비 끝판왕! 500원에 한 곡, 친구들이랑 부담 없이 놀기 좋아.</p>
+ <p class="price">500원/곡</p>
+ <p>시설: 깔끔한 부스, 다양한 최신곡</p>
+ </div>
+ <div class="card">
+ <h3><span>3.</span> 더 스테이지</h3>
+ <p>압구정역에서 도보 3분. 룸이 넓고 방음도 완벽해. 단체 모임 강추!</p>
+ <p class="price">1시간 40,000원~</p>
+ <p>시설: 대형 스크린, 돌비 사운드</p>
+ </div>
+ <div class="card">
+ <h3><span>4.</span> 보컬룸</h3>
+ <p>전문 보컬 트레이닝 시스템이 있어. 노래 실력 키우고 싶은 사람한테 딱이야.</p>
+ <p class="price">1시간 25,000원~</p>
+ <p>시설: 마이크 2개, 녹음 기능</p>
+ </div>
+ <div class="card">
+ <h3><span>5.</span> 럭셔리 노래연습장</h3>
+ <p>야간 할인 있어서 늦게 가면 더 싸. 친구랑 밤새 놀기 좋은 곳.</p>
+ <p class="price">야간 3시간 50,000원</p>
+ <p>시설: 무료 음료, 간단한 안주</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <section class="section">
-        <div class="container">
-            <h2>자주 묻는 질문</h2>
-            <div class="faq">
-                <div class="faq-item">
-                    <h4>압구정 노래방 주차는 어디에?</h4>
-                    <p>대부분 가게 앞에 주차 공간이 있거나 근처 공영주차장 이용하면 돼. 수페리어 노래방은 전용 주차장 있어.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>가장 싼 노래방은?</h4>
-                    <p>코인노래방 1989가 500원에 한 곡이라 제일 싸. 가성비 좋아.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>데이트하기 좋은 곳은?</h4>
-                    <p>수페리어 노래방이나 더 스테이지가 분위기 좋아. 무대 조명이랑 음향이 진짜 로맨틱해.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>늦은 시간에도 열려 있어?</h4>
-                    <p>응, 럭셔리 노래연습장은 24시까지 운영해. 야간 할인도 있으니까 참고해.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>예약 필수야?</h4>
-                    <p>주말에는 예약하는 게 좋아. 전화 한 통이면 돼. 번호는 위에 있어!</p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section class="section">
+ <div class="container">
+ <h2>자주 묻는 질문</h2>
+ <div class="faq">
+ <div class="faq-item">
+ <h4>압구정 노래방 주차는 어디에?</h4>
+ <p>대부분 가게 앞에 주차 공간이 있거나 근처 공영주차장 이용하면 돼. 수페리어 노래방은 전용 주차장 있어.</p>
+ </div>
+ <div class="faq-item">
+ <h4>가장 싼 노래방은?</h4>
+ <p>코인노래방 1989가 500원에 한 곡이라 제일 싸. 가성비 좋아.</p>
+ </div>
+ <div class="faq-item">
+ <h4>데이트하기 좋은 곳은?</h4>
+ <p>수페리어 노래방이나 더 스테이지가 분위기 좋아. 무대 조명이랑 음향이 진짜 로맨틱해.</p>
+ </div>
+ <div class="faq-item">
+ <h4>늦은 시간에도 열려 있어?</h4>
+ <p>응, 럭셔리 노래연습장은 24시까지 운영해. 야간 할인도 있으니까 참고해.</p>
+ </div>
+ <div class="faq-item">
+ <h4>예약 필수야?</h4>
+ <p>주말에는 예약하는 게 좋아. 전화 한 통이면 돼. 번호는 위에 있어!</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <section class="section">
-        <div class="container">
-            <h2>압구정 노래방 꿀팁</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>시간대별 가격</h3>
-                    <p>오후 6시 전에 가면 보통 20~30% 저렴해. 점심에 가는 거 추천!</p>
-                </div>
-                <div class="card">
-                    <h3>음료 서비스</h3>
-                    <p>몇몇 곳은 무료 음료 제공해. 특히 럭셔리 노래연습장은 커피랑 탄산수 무료야.</p>
-                </div>
-                <div class="card">
-                    <h3>단체 할인</h3>
-                    <p>4명 이상이면 보통 할인해 줘. 더 스테이지는 단체 예약 시 10% 할인.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section class="section">
+ <div class="container">
+ <h2>압구정 노래방 꿀팁</h2>
+ <div class="card-grid">
+ <div class="card">
+ <h3>시간대별 가격</h3>
+ <p>오후 6시 전에 가면 보통 20~30% 저렴해. 점심에 가는 거 추천!</p>
+ </div>
+ <div class="card">
+ <h3>음료 서비스</h3>
+ <p>몇몇 곳은 무료 음료 제공해. 특히 럭셔리 노래연습장은 커피랑 탄산수 무료야.</p>
+ </div>
+ <div class="card">
+ <h3>단체 할인</h3>
+ <p>4명 이상이면 보통 할인해 줘. 더 스테이지는 단체 예약 시 10% 할인.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <footer>
-        <p>© 2025 압구정 노래방 가이드 | <a href="/privacy">개인정보처리방침</a> | <a href="tel:0200000000">전화 문의</a></p>
-        <p>직접 방문한 경험을 바탕으로 솔직한 리뷰를 제공합니다.</p>
-    </footer>
+ <footer>
+ <p>© 2025 압구정 노래방 가이드 | <a href="/privacy">개인정보처리방침</a> | <a href="tel:0200000000">전화 문의</a></p>
+ <p>직접 방문한 경험을 바탕으로 솔직한 리뷰를 제공합니다.</p>
+ </footer>
 
-    <script>
-        document.querySelectorAll('.faq-item h4').forEach(item => {
-            item.addEventListener('click', () => {
-                const p = item.nextElementSibling;
-                p.style.display = p.style.display === 'none' ? 'block' : 'none';
-            });
-        });
-    </script>
+ <script>
+ document.querySelectorAll('.faq-item h4').forEach(item => {
+ item.addEventListener('click', () => {
+ const p = item.nextElementSibling;
+ p.style.display = p.style.display === 'none' ? 'block' : 'none';
+ });
+ });
+ </script>
 </body>
 </html>
